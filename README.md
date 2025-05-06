@@ -15,7 +15,6 @@ This Python project is a **Credit Card BIN Generator and Checker** designed **so
 - **VBV/Non-VBV Sorting**: Categorize live cards as VBV or non-VBV based on simulated checks.
 - **Proxy Support**: Load and use proxies from a `proxies.txt` file for anonymous requests.
 - **File Input/Output**: Load BINs or cards from files and save live card details to JSON files in organized folders.
-- **Colored Console Output**: Stylish, color-coded console output using `colorama` for better readability.
 - **Input Validation**: Robust parsing and validation for BINs and card details.
 
 ## Requirements

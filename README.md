@@ -34,7 +34,7 @@ This Python project is a **Credit Card BIN Generator and Checker** designed **so
    ```bash
    pip install -r requirements.txt
    ```
-3. For proxy add proxies in `proxies.txt`(format: `http://proxy:port` or `socks5://proxy:port`).
+3. For proxy add proxies in `proxies.txt`.
 4. Obtain and configure API keys:
    - Replace `sk_test_your_test_key_here` in `bin_checker.py` with your Stripe test secret key.
    - Replace `your_bincodes_api_key_here` in `bin_checker.py` with your Bincodes API key.

@@ -124,7 +124,7 @@ def save_card(card, details, folder, vbv_status):
 # Check VBV status using Stripe test mode
 def check_vbv(card):
     # Replace with your Stripe test secret key (sk_test_...)
-    stripe_sk = "sk_test_51SBUZUCo24aV75gKb9NrPAgXcrcST0MT6D0lva78f2pKc356KtXSIV8Ucpim1gr4ZXikCnlOkDGkZp2vsedfPHC600dRtlpUsr"  # Get from Stripe Dashboard
+    stripe_sk = "enter_test_key_here"  # Get from Stripe Dashboard
     headers = {"Authorization": f"Bearer {stripe_sk}"}
     card_parts = card.split("|")
     cc_number, month, year, cvv = card_parts[0], card_parts[1], card_parts[2], card_parts[3]
